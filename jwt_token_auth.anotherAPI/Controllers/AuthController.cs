@@ -29,6 +29,8 @@ namespace jwt_token_auth.anotherAPI.Controllers
             return Ok(response);
         }
         // Register Endpoint
+
+        //PostApi
         [HttpPost("register")]
         public async Task<IActionResult> Register([FromBody] User user)
         {
